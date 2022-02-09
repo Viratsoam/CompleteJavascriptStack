@@ -2,7 +2,7 @@ const calculator = (a, b, operation) => {
     let ans;
     switch (operation) {
         case '+':
-            ans = a * b;
+            ans = a + b;
             break;
         case '-':
             ans = a - b;
@@ -27,3 +27,4 @@ const calculator = (a, b, operation) => {
 }
 
 console.log(calculator(2, 3, '**'));
+console.log(10 === +'10');
