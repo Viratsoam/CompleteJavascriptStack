@@ -27,4 +27,3 @@ const calculator = (a, b, operation) => {
 }
 
 console.log(calculator(2, 3, '**'));
-console.log(10 === +'10');
